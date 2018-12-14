@@ -132,6 +132,7 @@ function evenOddSums(arr) {
 
   // arr.forEach(num => (num % 2 === 0 ? (evenSum += num) : (oddSum += num)));
 
+  return [evenSum, oddSum];
 
 };
 
